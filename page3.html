@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>OBMC LP</title>
+  <style>
+    body{
+      background-image: url(bg.webp);
+      background-size: cover;
+      font-style: ;
+    }
+    select, input, button{
+      width: 25%;
+    }
+    textarea{
+      width: 45%;
+    }
+    
+  </style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#"><img src="obmc.webp" alt="logo" height="50px" width=""></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="mynavbar">
+      <ul class="navbar-nav me-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html" target="_self">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="page2.html" target="_self" >Courses</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="page3.html" target="_self" >Enroll</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="page4.html" target="_self" >Contact Us</a>
+        <li class="nav-item">
+          <a class="nav-link" href="page5.html" target="_self" >About me</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="inner">
+  <h3> O.B Montessori Center</h3><br>
+  <h1>Educating Future lives</h1>
+  <p>If you have questions, need more information, or want to schedule a visit, we are here to help. Just head to the "Contact us page and we'll be shortly to you.</p>
+</div>
+
+<br>
+
+<div class="inner">
+    <h3>How 2 Enroll for dummies</h3>
+    <form>
+      <label for="text">Your child's Full Name:</label>
+      <input type="text" id="text" name="text"><br>
+
+  
+
+      <label for="email">Your email:</label>
+      <input type="email" id="email" name="email"><br>
+
+
+
+      <label for="phone">Your phone number:</label>
+      <input type="phone" id="phone" name="phone"><br>
+
+      <label for="dropdown">The Campus you wish to enroll them for:</label>
+      <select id="dropdown" name="dropdown">
+        <option value="option1">Angeles</option>
+        <option value="option2">Fairview</option>
+        <option value="option3">Las Piñas</option>
+        <option value="option4">Sta Ana.</option>
+        <option value="option5">Greenhills</option>
+      </select><br>
+
+       <label for="dropdown">Their current grade level:</label>
+      <select id="dropdown" name="dropdown">
+        <option value="option1">Junior Casa (Pre-Kidergarten)</option>
+        <option value="option2">Junior-Advanced Casa (Pre-Kindergarten 2)</option>
+        <option value="option3">Advanced Casa (Kindergarten)</option>
+        <option value="option4">Primrary Grade School</option>
+        <option value="option5">Intermediate Grade School</option>
+        <option value="option5">Junior Highschool</option>
+        <option value="option5">Senior Highschool</option>
+        <option value="option5">Alumni</option>
+      </select><br>
+    
+      <label for="textarea">Why do you or your child want to join? Minimum of five sentences.</label><br>
+      <textarea id="textarea" name="textarea" rows="15"></textarea>
+
+      <div class="form buttons">
+        <input type="Submit" value="Submit">
+      </div>
+    </form>
+</div>
+</body>
+</html>
